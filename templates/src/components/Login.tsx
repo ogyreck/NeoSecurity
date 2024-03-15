@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import loginImage1 from './images/login-1.png';
-import loginImage2 from './images/login-2.png';
-import 'C:/Users/Газиз/Desktop/front/suda/templates/src/styles/Login.css';
+import loginImage1 from '../images/login-1.png';
+import loginImage2 from '../images/login-2.png';
+import '../styles/Login.css';
 
 const Person = {
   login: 'gaziz@a',
