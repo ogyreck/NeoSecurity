@@ -1,2 +1,0 @@
-# NeoSecurity
-Репозиторий для NeoHack
