@@ -30,7 +30,8 @@ p {
 
 .sidebar li {
   cursor: pointer;
-  padding: 20px;
+  padding: 10px;
+  margin-top: 20px;
   border-radius: 5px;
   transition: color 0.2s all;
   font-weight: bold;
@@ -47,4 +48,9 @@ p {
 .sidebar .selected {
   background: linear-gradient(to right, #FF6347, #8B0000);
 
+}
+
+h1 {
+  position: relative;
+  left: 400px;
 }
