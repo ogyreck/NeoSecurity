@@ -1,0 +1,50 @@
+
+.sidebar {
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  background-color: #150f1e;
+  color: #fff;
+  padding: 20px;
+  top: 0;
+  left: 0;
+}
+
+p {
+  position: absolute;
+  left: 30%;
+  font-size: 2em;
+  background-image: linear-gradient(to right, #ffc547, #8B0000);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+  top: 20%;
+}
+
+.sidebar li {
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 5px;
+  transition: color 0.2s all;
+  font-weight: bold;
+}
+
+.sidebar li:hover {
+  background-image: linear-gradient(to right, #ffc547, #8B0000);
+  background-clip: text; /* Скрытие фонового изображения за текстом */
+  -webkit-background-clip: text; /* Для поддержки веб-кит браузерами */
+  color: #fff;
+  background: linear-gradient(to right, #FF6347, #8B0000);
+}
+
+.sidebar .selected {
+  background: linear-gradient(to right, #FF6347, #8B0000);
+
+}
