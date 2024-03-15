@@ -6,6 +6,5 @@
  - [Информация о Frontend](https://github.com/ogyreck/NeoSecurity/blob/main/templates/Frontend%20info.md)
  - [Информация о Backend]()
 
- ### Просто текст с описанием 
-
+ ### В этом репозитории находятся данные о проекте NeoSecurity, команды TrioTech
 
