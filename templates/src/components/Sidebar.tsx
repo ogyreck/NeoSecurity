@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import 'C:/Users/Газиз/Desktop/front/suda/templates/src/styles/Sidebar.css';
+import '../styles/Sidebar.css';
 
 interface SidebarProps {
   items: string[]; // Массив элементов боковой панели
