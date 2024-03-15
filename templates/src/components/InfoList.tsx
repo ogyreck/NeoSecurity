@@ -7,13 +7,13 @@ export const InfoList: React.FC = () => {
   return (
     <div>
       <Sidebar/>
-      {Object.values(info).map((item, index) => (
-        <div key={index} className={`info-item ${item.prioritet < 5 ? 'disabled' : ''}`}>
-          <h3>{item.title}</h3>
-          <p>Приоритет: {item.prioritet}</p>
-          <p>{item.inf}</p>
-        </div>
-      ))}
+      <div className="space">
+        {Object.values(info).map((item, index) => (
+          <div key={index} className={`info-item ${item.prioritet < 5 ? 'disabled' : ''}`}>
+            <h3>{item.title}</h3>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
