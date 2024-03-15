@@ -35,13 +35,11 @@ class DocumentSerializer(serializers.ModelSerializer):
 
 class DocumentCreateSerializer(serializers.ModelSerializer):
     groups = serializers.PrimaryKeyRelatedField(many=True, queryset=Group.objects.all())
-    min_grade = GradeSerializer(read_only=True)
 
     class Meta:
         model = Document
         fields = [
             'name',
-            'min_grade',
             'groups',
         ]
 
@@ -69,7 +67,7 @@ class AddGroupWorkerSerializer(serializers.ModelSerializer):
     class Meta:
         model = WorkerGroup
         fields = ['group', 'grade']
-
+    class
 
 class CustomUserCreateSerializer(UserCreateSerializer):
     groups = AddGroupWorkerSerializer(many=True)
@@ -84,7 +82,6 @@ class CustomUserCreateSerializer(UserCreateSerializer):
             'password',
             'groups',
         ]
-
     @staticmethod
     def create_groups(groups, worker):
         for group in groups:
